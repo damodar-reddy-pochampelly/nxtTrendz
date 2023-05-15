@@ -1,0 +1,84 @@
+.price-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-items-container {
+  align-self: flex-end;
+}
+
+.price-heading {
+  color: #616e7c;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .price-heading {
+    font-size: 18px;
+  }
+}
+
+.price {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .price {
+    font-size: 20px;
+  }
+}
+
+.no-of-items-description {
+  color: #616e7c;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-of-items-description {
+    font-size: 15px;
+  }
+}
+
+.checkout-btn-sm {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.checkout-btn-lg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .checkout-btn-sm {
+    display: none;
+  }
+  .checkout-btn-lg {
+    display: block;
+    width: 100%;
+    background-color: #0b69ff;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+}
